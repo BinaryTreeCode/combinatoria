@@ -248,8 +248,10 @@ function multiplicacion() {
     total = box1 * box2 * box3 * box4 * box5;
 
     console.log(total)
+    alert(total + " combinaciones")
 }
 
 var resutado = document.getElementById("evento");
 
 resutado.addEventListener("click", multiplicacion, true);
+
